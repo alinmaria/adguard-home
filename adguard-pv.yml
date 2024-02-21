@@ -8,6 +8,7 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteOnce
+  storageClassName: "longhorn"
   persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: "/storage/data/adguard"
