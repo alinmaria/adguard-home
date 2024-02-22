@@ -33,7 +33,7 @@ spec:
           protocol: TCP
         volumeMounts:
         - name: adguard-data
-          mountPath: /opt/adguardhome
+          mountPath: /opt/adguardhome/conf
       volumes:
       - name: adguard-data
         persistentVolumeClaim:
