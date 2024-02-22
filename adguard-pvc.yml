@@ -5,9 +5,9 @@ metadata:
   namespace: adguard
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   storageClassName: "longhorn"
   resources:
     requests:
       storage: 1Gi
-  volumeName: "testvolume"
+  volumeName: "adguard-pv"
